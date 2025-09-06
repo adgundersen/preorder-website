@@ -1,0 +1,14 @@
+*.pyc
+*.pyo
+.DS_Store
+
+*.sublime-workspace
+
+env/
+
+metrics.json
+keys.json
+
+# Need to do this in addition to adding to .gitignore
+# in order to fully ignore it.
+# git rm -r --cached conf.yml
